@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#655b78ac">
+
+    <TextView android:text="My Nanodegree Apps!" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lblHeader"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spotify Streamer"
+        android:id="@+id/btSpotify"
+        android:layout_below="@+id/lblHeader"
+        android:layout_marginTop="34dp"
+        android:layout_alignEnd="@+id/lblHeader"
+        android:layout_alignStart="@+id/lblHeader"
+        android:background="#F08C35"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORES APP"
+        android:id="@+id/btScores"
+        android:layout_marginTop="21dp"
+        android:background="#F08C35"
+        android:layout_below="@+id/btSpotify"
+        android:layout_alignStart="@+id/btSpotify"
+        android:layout_alignEnd="@+id/btSpotify"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIBRARY APP"
+        android:id="@+id/btLibrary"
+        android:layout_marginTop="20dp"
+        android:background="#F08C35"
+        android:layout_below="@+id/btScores"
+        android:layout_alignStart="@+id/btScores"
+        android:layout_alignEnd="@+id/btScores"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUILD IT BIGGER"
+        android:id="@+id/btBuild"
+        android:layout_marginTop="21dp"
+        android:background="#F08C35"
+        android:layout_below="@+id/btLibrary"
+        android:layout_alignStart="@+id/btLibrary"
+        android:layout_alignEnd="@+id/btLibrary"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XYZ READER"
+        android:id="@+id/btReader"
+        android:layout_marginTop="21dp"
+        android:background="#F08C35"
+        android:layout_below="@+id/btBuild"
+        android:layout_alignStart="@+id/btBuild"
+        android:layout_alignEnd="@+id/btBuild"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAPSTONE: MY OWN APP"
+        android:id="@+id/btCapstone"
+        android:layout_marginTop="21dp"
+        android:background="#ff2548"
+        android:layout_below="@+id/btReader"
+        android:layout_alignStart="@+id/btReader"
+        android:layout_alignEnd="@+id/btReader"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
